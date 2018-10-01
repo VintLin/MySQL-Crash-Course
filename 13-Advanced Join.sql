@@ -54,7 +54,7 @@ ON boys.toy_id<>toys.toy_id
 ORDER BY boys.boy;
 --排除特定关系的多对多
 --4.自然联结
-SELECT boys.boy,toys.toy
+SELECT boys.boy, toys.toy
 FROM boys
     NATURAL JOIN
     toys
